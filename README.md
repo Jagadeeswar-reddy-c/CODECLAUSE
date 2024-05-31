@@ -1,4 +1,4 @@
-# CODECLAUSE
+# CodeClause-Internship-2024
 
 ## Internship Description
 
@@ -48,3 +48,55 @@ Internship Domain: Python Development Intern
 ```
 
 ### Project Overview
+
+The Password Generator project is a web application developed during my internship at CodeClause Pvt Ltd. The application is designed to generate secure passwords based on user-defined criteria such as length, inclusion of symbols, numbers, and alphabetic characters. This project showcases my proficiency in Python, Flask, HTML, CSS, and Bootstrap.
+
+### Technologies Used
+  - `Python`: Core programming language used for backend logic.
+  - `Flask`: Web framework used to build the web application.
+  - `MySQL`: Not used in this specific project but part of my learning outcomes.
+  - `HTML`: Markup language used for structuring the web pages.
+  - `CSS`: Used for styling the web pages.
+  - `Bootstrap`: Framework used for creating responsive and mobile-first web designs.
+  - `Libraries`: Utilized Python's `random` and `string` libraries for password generation.
+
+### Code Explanation
+  1. Flask Application (`app.py`):
+       - This part of the code sets up the Flask application and defines the routes for the web app.
+  2. Password Generation Logic (`password.py`):
+       - This module contains the logic for generating the password based on the user's input.
+  3. HTML Template (`index.html`):
+       - This HTML file structures the web page and includes a form for user inputs and displays the generated password.
+
+## How to Run the Project
+## Version
+```
+Python >= 3.7.0 or anaconda
+```
+
+## Usage
+Installation and Cloning Project:
+```
+git clone https://github.com/Jagadeeswar-reddy-c/CODECLAUSE.git
+cd "Password Generator"
+```
+  1. Install Dependencies:
+     -  Ensure you have Flask installed. You can install it using pip:
+```
+pip install Flask
+```
+  2. Run the Flask Application:
+     - Navigate to the directory containing your Flask application and run:
+```
+python app.py
+```
+  3. Access the Application:
+     - Open your web browser and go to
+```
+http://127.0.0.1:5000/
+```
+  4. Generate Passwords:
+     - Fill out the form on the web page to generate passwords based on your criteria.
+
+## Results
+<img src="./Password Generator/Images/output1.png" alt="Project 1 img">
