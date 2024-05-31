@@ -100,3 +100,7 @@ http://127.0.0.1:5000/
 
 ## Results
 <img src="./Password Generator/Images/output1.png" alt="Project 1 img">
+
+## Conclusion
+
+The Password Generator project showcases my proficiency in Python development, particularly with Flask for web applications. It demonstrates my ability to create a secure password generator with user-defined criteria. Through this project, I've shown skills in integrating backend logic with frontend technologies like HTML, CSS, and Bootstrap. Overall, this project reflects my competence in solving real-world problems through software development.
