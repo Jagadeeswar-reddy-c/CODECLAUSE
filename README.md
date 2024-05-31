@@ -51,6 +51,11 @@ Internship Domain: Python Development Intern
 
 The Password Generator project is a web application developed during my internship at CodeClause Pvt Ltd. The application is designed to generate secure passwords based on user-defined criteria such as length, inclusion of symbols, numbers, and alphabetic characters. This project showcases my proficiency in Python, Flask, HTML, CSS, and Bootstrap.
 
+### Key Features:
+  - Customizable Length: Users can specify the length of the password to meet their security needs.
+  - Inclusion Options: Users can choose to include symbols, numbers, and characters in the password, ensuring a high level of security.
+  - User-Friendly Interface: A clean and intuitive design for easy use.
+
 ### Technologies Used
   - `Python`: Core programming language used for backend logic.
   - `Flask`: Web framework used to build the web application.
