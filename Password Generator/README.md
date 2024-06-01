@@ -63,7 +63,7 @@ http://127.0.0.1:5000/
      - Fill out the form on the web page to generate passwords based on your criteria.
 
 ## Results
-<img src="./Password Generator/Images/output.png" alt="Project 1 output img">
+<img src="./Images/output.png" alt="Project 1 output img">
 
 ## Conclusion
 
