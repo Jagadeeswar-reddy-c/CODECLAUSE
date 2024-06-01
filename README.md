@@ -38,3 +38,5 @@ During my internship at CodeClause Pvt Ltd, I have gained practical experience a
 These skills have equipped me with the knowledge and confidence to tackle real-world software development challenges, laying a strong foundation for my future career in technology.
 
 # Internship Project's
+  1. [Project - 1 - Password Generator](Password%20Generator/README.md)
+  2. [Project - 2 - Music Player in Python](Music%20Player%20in%20Python/README.md)
