@@ -1,4 +1,4 @@
-# Project - 2 - 
+# Project - 2 - Music Player in Python
 
 ```
 Project ID: #CC9864
@@ -80,7 +80,9 @@ http://127.0.0.1:5000/
      - After uploading, the Dashboard page will display the uploaded files with audio controls for playback.
 
 ## Results
-<img src="./Password Generator/Images/output.png" alt="Project 1 output img">
+<video width="600" controls>
+  <source src="./Images/Result.mp4" type="video/mp4">
+</video>
 
 ## Conclusion
 
