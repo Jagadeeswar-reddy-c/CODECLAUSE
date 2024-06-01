@@ -1,6 +1,4 @@
-# Password Generator
-
-# Project - 1
+# Project - 1 - Password Generator
 
 ```
 Project ID: #CC9863
