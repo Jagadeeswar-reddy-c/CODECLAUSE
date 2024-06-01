@@ -1,77 +1,51 @@
-# CodeClause-Internship-2024
-
-## Internship Description
+# Project - 2 - 
 
 ```
-Position: Python Development Intern
-Company: CodeClause Pvt Ltd
-Location: remote
-Duration: June 1, 2024, to July 1, 2024
-Reference: CC2024052587323
-```
-
-### Internship Overview:
-
-The Python Development Internship at CodeClause Pvt Ltd is an educational internship designed to provide hands-on experience in software development. The primary goal of this internship is to enhance your skills in Python programming and software development practices through real-world projects and tasks.
-
-### Key Responsibilities:
-  - Collaborate with senior developers to design, develop, and implement Python-based applications.
-  - Participate in code reviews and provide constructive feedback to peers.
-  - Write clean, maintainable, and efficient code following best practices.
-  - Debug and troubleshoot issues in existing applications.
-  - Document development processes, code changes, and project updates.
-  - Participate in team meetings, brainstorming sessions, and technical discussions.
-  - Learn and implement new technologies and frameworks as required by the projects.
-
-### Learning Outcomes:
-
-During my internship at CodeClause Pvt Ltd, I have gained practical experience and improved my skills in the following areas:
-
-  - `Python`: Developed a strong foundation in Python programming, including understanding core concepts and applying them in various projects.
-  - `Flask`: Learned to build web applications using the Flask framework, understanding its architecture and how to create RESTful APIs.
-  - `MySQL`: Acquired skills in MySQL for database management, including writing complex queries, designing database schemas, and managing data efficiently.
-  - `HTML`: Gained proficiency in HTML for structuring web content, creating well-organized and semantically correct web pages.
-  - `CSS`: Learned to style web pages using CSS, enhancing the visual appeal and user experience of web applications.
-  - `Bootstrap`: Utilized Bootstrap to create responsive and mobile-first web designs, ensuring compatibility across various devices and screen sizes.
-  - `Libraries`: Explored and implemented various Python libraries to enhance functionality and streamline development processes.
-
-These skills have equipped me with the knowledge and confidence to tackle real-world software development challenges, laying a strong foundation for my future career in technology.
-
-# Internship Project Description
-
-# Project - 1
-
-```
-Project ID: #CC9863
-Project Title: Password Generator
+Project ID: #CC9864
+Project Title: Music Player in Python
 Internship Domain: Python Development Intern
 ```
 
 ### Project Overview
 
-The Password Generator project is a web application developed during my internship at CodeClause Pvt Ltd. The application is designed to generate secure passwords based on user-defined criteria such as length, inclusion of symbols, numbers, and alphabetic characters. This project showcases my proficiency in Python, Flask, HTML, CSS, and Bootstrap.
+The Music Player project is a web application developed during my internship at CodeClause Pvt Ltd. The application allows users to upload and play MP3 files directly from their web browser. This project highlights my proficiency in Python, Flask, HTML, CSS, and Bootstrap.
 
 ### Key Features:
-  - Customizable Length: Users can specify the length of the password to meet their security needs.
-  - Inclusion Options: Users can choose to include symbols, numbers, and characters in the password, ensuring a high level of security.
-  - User-Friendly Interface: A clean and intuitive design for easy use.
+  1. User-Friendly Interface:
+     - Simple and intuitive interface for easy interaction.
+     - Clean and responsive web form for uploading MP3 files.
+  2. File Upload Capability:
+     - Supports multiple MP3 file uploads at once.
+     - Convenient batch upload feature by selecting a folder.
+  3. Audio Playback:
+     - Built-in audio controls for playing, pausing, and adjusting volume.
+     - Displays uploaded MP3 files with playback options.
+  4. Responsive Design:
+     - Uses Bootstrap for a mobile-friendly and responsive design.
+     - Consistent experience across different devices and screen sizes.
+  5. Server-Side File Handling:
+     - Handles file uploads and storage securely using Flask.
+     - Saves uploaded files in a designated folder on the server.
+  6. Dynamic Content Rendering:
+     - Uses Jinja2 templating to dynamically render the uploaded files list.
+     - Automatically updates the dashboard with new uploads.
+  7. Cross-Browser Compatibility:
+     - Works seamlessly across major web browsers.
+     - Ensures a consistent user experience.
 
 ### Technologies Used
   - `Python`: Core programming language used for backend logic.
   - `Flask`: Web framework used to build the web application.
-  - `MySQL`: Not used in this specific project but part of my learning outcomes.
   - `HTML`: Markup language used for structuring the web pages.
   - `CSS`: Used for styling the web pages.
   - `Bootstrap`: Framework used for creating responsive and mobile-first web designs.
-  - `Libraries`: Utilized Python's `random` and `string` libraries for password generation.
 
 ### Code Explanation
   1. Flask Application (`app.py`):
-       - This part of the code sets up the Flask application and defines the routes for the web app.
-  2. Password Generation Logic (`password.py`):
-       - This module contains the logic for generating the password based on the user's input.
-  3. HTML Template (`index.html`):
-       - This HTML file structures the web page and includes a form for user inputs and displays the generated password.
+       - This part of the code sets up the Flask application, defines routes, and handles file uploads.
+  2. HTML Templates:
+       - Index Page (`index.html)`: This page provides a form for users to upload MP3 files.
+       - Dashboard Page (`Dashboard.html`): This page displays the uploaded MP3 files and provides audio controls for playback.
 
 ## How to Run the Project
 ## Version
@@ -83,7 +57,7 @@ Python >= 3.7.0 or anaconda
 Installation and Cloning Project:
 ```
 git clone https://github.com/Jagadeeswar-reddy-c/CODECLAUSE.git
-cd "Password Generator"
+cd "Music Player in Python"
 ```
   1. Install Dependencies:
      -  Ensure you have Flask installed. You can install it using pip:
@@ -100,12 +74,14 @@ python app.py
 ```
 http://127.0.0.1:5000/
 ```
-  4. Generate Passwords:
-     - Fill out the form on the web page to generate passwords based on your criteria.
+  4. Upload MP3 Files:
+     - Use the form on the main page to upload MP3 files. The files will be saved to the `static/uploads/` directory.
+  5. Play Music:
+     - After uploading, the Dashboard page will display the uploaded files with audio controls for playback.
 
 ## Results
 <img src="./Password Generator/Images/output.png" alt="Project 1 output img">
 
 ## Conclusion
 
-The Password Generator project showcases my proficiency in Python development, particularly with Flask for web applications. It demonstrates my ability to create a secure password generator with user-defined criteria. Through this project, I've shown skills in integrating backend logic with frontend technologies like HTML, CSS, and Bootstrap. Overall, this project reflects my competence in solving real-world problems through software development.
+The Music Player project developed during my internship at CodeClause Pvt Ltd showcases my proficiency in Python and web development. Utilizing Flask for the backend and HTML, CSS, and Bootstrap for the front-end, I created a user-friendly web application that allows multiple MP3 file uploads and provides built-in audio playback controls. This project highlights my ability to integrate various technologies to solve practical problems, enhancing my technical skills and preparing me for future software development challenges.
