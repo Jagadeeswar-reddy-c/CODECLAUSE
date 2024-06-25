@@ -80,9 +80,12 @@ http://127.0.0.1:5000/
      - After uploading, the Dashboard page will display the uploaded files with audio controls for playback.
 
 ## Results
-<video width="600" controls>
-  <source src="./Images/Result.mp4" type="video/mp4">
-</video>
+  - Before Uploading Files
+<img src="Images/output1.png" alt="result outcome">
+  - After Uploading Files
+<img src="Images/output2.png" alt="result outcome">
+  - Final Outcome
+<img src="Images/output3.png" alt="result outcome">
 
 ## Conclusion
 
