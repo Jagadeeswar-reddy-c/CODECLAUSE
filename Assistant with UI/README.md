@@ -83,9 +83,9 @@ python app.py
      - View the search results in the message box.
 
 ## Results
-<img src="./images/Output 1.png" alt = "Output Image"/>
+<img src="./Images/Output 1.png" alt = "Output Image"/>
 <center>Starting of the Application</center>
-<img src="./images/Output 2.png" alt = "Output Image"/>
+<img src="./Images/Output 2.png" alt = "Output Image"/>
 <center>Outcome of the Project</center>
 
 ## Conclusion
