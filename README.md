@@ -29,6 +29,7 @@ During my internship at CodeClause Pvt Ltd, I have gained practical experience a
 
   - `Python`: Developed a strong foundation in Python programming, including understanding core concepts and applying them in various projects.
   - `Flask`: Learned to build web applications using the Flask framework, understanding its architecture and how to create RESTful APIs.
+  - `Tkinter`: Tkinter is Python's standard GUI library, offering a fast and straightforward method to develop desktop applications.
   - `MySQL`: Acquired skills in MySQL for database management, including writing complex queries, designing database schemas, and managing data efficiently.
   - `HTML`: Gained proficiency in HTML for structuring web content, creating well-organized and semantically correct web pages.
   - `CSS`: Learned to style web pages using CSS, enhancing the visual appeal and user experience of web applications.
@@ -40,3 +41,4 @@ These skills have equipped me with the knowledge and confidence to tackle real-w
 # Internship Project's
   1. [Project - 1 - Password Generator](Password%20Generator/README.md)
   2. [Project - 2 - Music Player in Python](Music%20Player%20in%20Python/README.md)
+  3. [Project - 4 - Assistant with UI](Assistant%20with%20UI/README.md)
