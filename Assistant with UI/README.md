@@ -1,89 +1,93 @@
-# Project - 2 - Music Player in Python
+# Project - 4 - Assistant with UI
 
 ```
-Project ID: #CC9864
-Project Title: Music Player in Python
+Project ID: #CC9866
+Project Title: Assistant with UI
 Internship Domain: Python Development Intern
+Project Level: Golden Level
 ```
 
 ### Project Overview
 
-The Music Player project is a web application developed during my internship at CodeClause Pvt Ltd. The application allows users to upload and play MP3 files directly from their web browser. This project highlights my proficiency in Python, Flask, HTML, CSS, and Bootstrap.
+Create an interactive voice assistant with a user-friendly graphical user interface. The application records the user's voice when they click the microphone button, processes the command, and displays the interpreted command on the screen. The assistant then responds with relevant information, solutions, or feedback based on the command.
 
 ### Key Features:
   1. User-Friendly Interface:
      - Simple and intuitive interface for easy interaction.
-     - Clean and responsive web form for uploading MP3 files.
-  2. File Upload Capability:
-     - Supports multiple MP3 file uploads at once.
-     - Convenient batch upload feature by selecting a folder.
-  3. Audio Playback:
-     - Built-in audio controls for playing, pausing, and adjusting volume.
-     - Displays uploaded MP3 files with playback options.
+     - Clean and responsive design for seamless user experience.
+  2. Voice Command Recognition:
+     - Records and transcribes voice commands using speech recognition.
+     - Handles various commands and provides appropriate responses.
+  3. Google Search Integration:
+     - Automatically performs Google searches based on transcribed voice commands.
+     - Displays search results within the application.
   4. Responsive Design:
-     - Uses Bootstrap for a mobile-friendly and responsive design.
-     - Consistent experience across different devices and screen sizes.
-  5. Server-Side File Handling:
-     - Handles file uploads and storage securely using Flask.
-     - Saves uploaded files in a designated folder on the server.
-  6. Dynamic Content Rendering:
-     - Uses Jinja2 templating to dynamically render the uploaded files list.
-     - Automatically updates the dashboard with new uploads.
-  7. Cross-Browser Compatibility:
-     - Works seamlessly across major web browsers.
+     - Uses Tkinter for a desktop-friendly design.
      - Ensures a consistent user experience.
+  5. Real-time Feedback:
+     - Provides immediate feedback by displaying the interpreted command.
+     - Shows search results in a message box.
 
 ### Technologies Used
   - `Python`: Core programming language used for backend logic.
-  - `Flask`: Web framework used to build the web application.
-  - `HTML`: Markup language used for structuring the web pages.
-  - `CSS`: Used for styling the web pages.
-  - `Bootstrap`: Framework used for creating responsive and mobile-first web designs.
+  - `Tkinter`: Library used for creating the graphical user interface.
+  - `SpeechRecognition`: Library used for integrating voice recognition.
+  - `Selenium`: WebDriver used for automating Google search.
 
 ### Code Explanation
-  1. Flask Application (`app.py`):
-       - This part of the code sets up the Flask application, defines routes, and handles file uploads.
-  2. HTML Templates:
-       - Index Page (`index.html)`: This page provides a form for users to upload MP3 files.
-       - Dashboard Page (`Dashboard.html`): This page displays the uploaded MP3 files and provides audio controls for playback.
+  1. Voice Assistant Application (`main.py`):
+       - This part of the code sets up the Tkinter application, defines the voice recording and transcription functionality, and handles Google search integration.
+  2. Main Functions:
+       - `record_and_transcribe()`: Continuously records audio and transcribes it using Google's speech recognition service.
+       - `start_recording()`: Starts the recording process.
+       - `stop_recording()`: Stops the recording process and performs a Google search with the transcribed text.
+       - `google_search(query)`: Uses Selenium to perform a Google search and retrieve the results.
+       - `display_results(results)`: Displays the search results in a message box.
 
 ## How to Run the Project
 ## Version
 ```
 Python >= 3.7.0 or anaconda
+ChromeDriver
 ```
 
 ## Usage
-Installation and Cloning Project:
+Installation and Setup:
+
 ```
 git clone https://github.com/Jagadeeswar-reddy-c/CODECLAUSE.git
-cd "Music Player in Python"
+cd "Assistant with UI"
+
 ```
   1. Install Dependencies:
-     -  Ensure you have Flask installed. You can install it using pip:
+     -  Ensure you have the necessary Python libraries installed. You can install them using pip:
 ```
-pip install Flask
+pip install tkinter
+pip install SpeechRecognition
+pip install selenium
+pip install pyaudio
 ```
-  2. Run the Flask Application:
-     - Navigate to the directory containing your Flask application and run:
+  2. Set up ChromeDriver:
+     - Ensure that the ChromeDriver executable is in your system PATH or provide the path to the executable in the `webdriver.Chrome()` call.
+
+
+## Running the Application
+  1. Run the Python script:
 ```
 python app.py
 ```
-  3. Access the Application:
-     - Open your web browser and go to
-```
-http://127.0.0.1:5000/
-```
-  4. Upload MP3 Files:
-     - Use the form on the main page to upload MP3 files. The files will be saved to the `static/uploads/` directory.
-  5. Play Music:
-     - After uploading, the Dashboard page will display the uploaded files with audio controls for playback.
+  2. Use the Application:
+     - Click the "Start" button to begin recording your voice.
+     - Speak your command clearly.
+     - Click the "Stop" button to stop recording and perform a Google search with the transcribed text.
+     - View the search results in the message box.
 
 ## Results
-<video width="600" controls>
-  <source src="./Images/Result.mp4" type="video/mp4">
-</video>
+<img src="./Images/Output 1.png" alt = "Output Image"/>
+<center>Starting of the Application</center>
+<img src="./Images/Output 2.png" alt = "Output Image"/>
+<center>Outcome of the Project</center>
 
 ## Conclusion
 
-The Music Player project developed during my internship at CodeClause Pvt Ltd showcases my proficiency in Python and web development. Utilizing Flask for the backend and HTML, CSS, and Bootstrap for the front-end, I created a user-friendly web application that allows multiple MP3 file uploads and provides built-in audio playback controls. This project highlights my ability to integrate various technologies to solve practical problems, enhancing my technical skills and preparing me for future software development challenges.
+The Assistant with UI project developed during my internship at CodeClause Pvt Ltd showcases my proficiency in Python and GUI development. Utilizing Tkinter for the frontend and various Python libraries for backend logic, I created a user-friendly desktop application that records and transcribes voice commands, performs Google searches, and displays results. This project highlights my ability to integrate various technologies to solve practical problems, enhancing my technical skills and preparing me for future software development challenges.
