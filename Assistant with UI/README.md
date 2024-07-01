@@ -30,13 +30,13 @@ Create an interactive voice assistant with a user-friendly graphical user interf
 
 ### Technologies Used
   - `Python`: Core programming language used for backend logic.
-  - `Tkinter`: Library used for creating the graphical user interface.
+  - `Flask`: Framework used for creating the graphical user interface.
   - `SpeechRecognition`: Library used for integrating voice recognition.
   - `Selenium`: WebDriver used for automating Google search.
 
 ### Code Explanation
   1. Voice Assistant Application (`main.py`):
-       - This part of the code sets up the Tkinter application, defines the voice recording and transcription functionality, and handles Google search integration.
+       - This part of the code sets up the Flask application, defines the voice recording and transcription functionality, and handles Google search integration.
   2. Main Functions:
        - `record_and_transcribe()`: Continuously records audio and transcribes it using Google's speech recognition service.
        - `start_recording()`: Starts the recording process.
@@ -62,7 +62,7 @@ cd "Assistant with UI"
   1. Install Dependencies:
      -  Ensure you have the necessary Python libraries installed. You can install them using pip:
 ```
-pip install tkinter
+pip install flask
 pip install SpeechRecognition
 pip install selenium
 pip install pyaudio
@@ -83,11 +83,11 @@ python app.py
      - View the search results in the message box.
 
 ## Results
-<img src="./Images/Output 1.png" alt = "Output Image"/>
-<center>Starting of the Application</center>
-<img src="./Images/Output 2.png" alt = "Output Image"/>
+<img src="./Images/Output1.png" alt = "Output Image"/>
+<center>Starting of the Web Application</center>
+<img src="./Images/Output2.png" alt = "Output Image"/>
 <center>Outcome of the Project</center>
 
 ## Conclusion
 
-The Assistant with UI project developed during my internship at CodeClause Pvt Ltd showcases my proficiency in Python and GUI development. Utilizing Tkinter for the frontend and various Python libraries for backend logic, I created a user-friendly desktop application that records and transcribes voice commands, performs Google searches, and displays results. This project highlights my ability to integrate various technologies to solve practical problems, enhancing my technical skills and preparing me for future software development challenges.
+The Assistant with UI project developed during my internship at CodeClause Pvt Ltd showcases my proficiency in Python and web development. Utilizing Flask for the frontend and various Python libraries for backend logic, I created a user-friendly web application that records and transcribes voice commands, performs Google searches, and displays results. This project highlights my ability to integrate various technologies to solve practical problems, enhancing my technical skills and preparing me for future software development challenges.
