@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Transcriber</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Voice Transcriber</h1>
+    <button id="startButton">Start</button>
+    <button id="stopButton" disabled>Stop</button>
+    <div id="results"></div>
+
+    <script>
+        $(document).ready(function(){
+            $('#startButton').click(function(){
+                $.post('/start', function(data){
+                    $('#startButton').prop('disabled', true);
+                    $('#stopButton').prop('disabled', false);
+                    console.log(data.status);
+                });
+            });
+
+            $('#stopButton').click(function(){
+                $.post('/stop', function(data){
+                    $('#startButton').prop('disabled', false);
+                    $('#stopButton').prop('disabled', true);
+                    console.log(data.status);
+                    if(data.results.length > 0){
+                        let resultsHtml = '<h2>Search Results:</h2><ul>';
+                        data.results.forEach(result => {
+                            resultsHtml += `<li><a href="${result.link}" target="_blank">${result.title}</a></li>`;
+                        });
+                        resultsHtml += '</ul>';
+                        $('#results').html(resultsHtml);
+                    } else {
+                        $('#results').html('<p>No results found or failed to retrieve search results</p>');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
